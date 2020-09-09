@@ -1,0 +1,7 @@
+
+scrape_configs:
+- job_name: cadvisor
+  scrape_interval: 3m
+  static_configs:
+  - targets:
+    - 10.204.102.7:8080
